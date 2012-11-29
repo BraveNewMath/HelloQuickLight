@@ -10,11 +10,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CordovaExample", "CordovaEx
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptProject2", "ScriptProject2\ScriptProject2.csproj", "{C239CA94-D4B4-4729-8C32-56938FCB0BAB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{A52D71E0-89B9-4683-BC4F-22D9E1D1033A}"
-	ProjectSection(SolutionItems) = preProject
-		CordovaExample\Bin\Debug\WP7CordovaClassLib.dll = CordovaExample\Bin\Debug\WP7CordovaClassLib.dll
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
