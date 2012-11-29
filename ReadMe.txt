@@ -1,0 +1,13 @@
+﻿Script Project uses Saltarelle compiler (from  Nugit, see commands below) to make it compile C# code to javascript.
+
+Script Project has a post build event which copies the compiled javascript file to the desired directory. 
+copy "$(TargetDir)$(TargetName).js" "$(SolutionDir)\CordovaExample\www\js\
+
+This starter app is for using phonegap with saltarelle.
+
+
+Nugit Commands:
+	PM> Install-Package Saltarelle.Compiler
+	PM> Install-Package Saltarelle.Web
+	PM> Install-Package Saltarelle.Linq
+	PM> Install-Package Quicklight.Mobile
