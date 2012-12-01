@@ -6,9 +6,9 @@ copy "$(TargetDir)$(TargetName).js" "$(SolutionDir)\CordovaExample\www\js\
 This starter app is for using phonegap with saltarelle.
 
 
-Nugit Commands:
-	PM> Install-Package Saltarelle.Compiler
-	PM> Install-Package Saltarelle.Web
-	PM> Install-Package Saltarelle.Linq
-	PM> Install-Package Quicklight.Mobile
+* Nugit Commands:
+ *	PM> Install-Package Saltarelle.Compile
+ *	PM> Install-Package Saltarelle.Web
+ *	PM> Install-Package Saltarelle.Linq
+ *	PM> Install-Package Quicklight.Mobile
 
