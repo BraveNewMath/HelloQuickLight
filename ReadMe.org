@@ -11,3 +11,4 @@ Nugit Commands:
 	PM> Install-Package Saltarelle.Web
 	PM> Install-Package Saltarelle.Linq
 	PM> Install-Package Quicklight.Mobile
+
