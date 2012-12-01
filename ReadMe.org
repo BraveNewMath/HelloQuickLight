@@ -7,8 +7,8 @@ This starter app is for using phonegap with saltarelle.
 
 
 * Nugit Commands:
- *	PM> Install-Package Saltarelle.Compile
- *	PM> Install-Package Saltarelle.Web
- *	PM> Install-Package Saltarelle.Linq
- *	PM> Install-Package Quicklight.Mobile
+PM> Install-Package Saltarelle.Compile
+PM> Install-Package Saltarelle.Web
+PM> Install-Package Saltarelle.Linq
+PM> Install-Package Quicklight.Mobile
 
