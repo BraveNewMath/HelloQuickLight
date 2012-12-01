@@ -16,3 +16,4 @@ This starter app is for using phonegap with saltarelle.
 * BlackBerry Code Signing
 - obtain code key from black berry site
 - install webworks sdk from [[https://developer.blackberry.com/html5/download/#smartphones][here]]
+- generate signing keys following [[https://developer.blackberry.com/html5/documentation/signing_setup_smartphone_apps_1920010_11.html][these instructions]] 
