@@ -8,7 +8,7 @@ This starter app is for using phonegap with saltarelle.
 
 There are two projects in this solution.  ScriptProject is a c# console application which compiles into javascript.  I first created it as a console app, but now it compiles to Javascript, thanks to the Saltarelle compiler project. The compiled javascript is compied to the web project using a post build command in ScriptProject.
  
-** Nugit Commands to make ScriptProject compile to javascript:
+* Nugit Commands to make ScriptProject compile to javascript:
 - Install-Package Saltarelle.Compile
 - Install-Package Saltarelle.Web
 - Install-Package Saltarelle.Linq
