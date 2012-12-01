@@ -16,3 +16,7 @@ Install-Package Saltarelle.Linq
 
 Install-Package Quicklight.Mobile
 
+
+* BlackBerry Code Signing
+** obtain code key from black berry site
+** install webworks sdk from [[https://developer.blackberry.com/html5/download/#smartphones][here]]
