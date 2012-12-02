@@ -22,6 +22,6 @@ There are two projects in this solution.  ScriptProject is a c# console applicat
 - install webworks sdk from [[https://developer.blackberry.com/html5/download/#smartphones][here]]
 - generate signing keys following [[https://developer.blackberry.com/html5/documentation/signing_setup_smartphone_apps_1920010_11.html][these instructions]] 
 *** Installing BlackBerry app via PhoneGap Build website
-Browse to phonegap build website [b]on your phone[b] and click install.  
+Browse to phonegap build website *on your phone* and click install.  
 
 I think that if you try to download the install file on a desktop/laptop, it will give you a standard insall file even when the button says OTA (over the air).  
