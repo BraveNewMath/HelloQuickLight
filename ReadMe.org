@@ -15,7 +15,11 @@ There are two projects in this solution.  ScriptProject is a c# console applicat
 - Install-Package Quicklight.Mobile
 
 
-* BlackBerry Code Signing
+* Publishing apps 
+** BlackBerry Device
+*** BlackBerry Code Signing
 - obtain code key from black berry site
 - install webworks sdk from [[https://developer.blackberry.com/html5/download/#smartphones][here]]
 - generate signing keys following [[https://developer.blackberry.com/html5/documentation/signing_setup_smartphone_apps_1920010_11.html][these instructions]] 
+*** Installing zip file from Build to BlackBerry Phone
+- You'll need [[http://us.blackberry.com/software/desktop.html][BlackBerry desktop manager]]
