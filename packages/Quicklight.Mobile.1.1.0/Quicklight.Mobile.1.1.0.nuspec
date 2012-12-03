@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Quicklight.Mobile</id>
+    <version>1.1.0</version>
+    <title>Metadata required to use PhoneGap/Cordova library with Saltarelle C# to Javascript compiler</title>
+    <authors>Johan Kirsten</authors>
+    <owners>Johan Kirsten</owners>
+    <licenseUrl>http://quicklight.codeplex.com/license</licenseUrl>
+    <projectUrl>https://quicklight.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package contains the required metadata to write c# code against the PhoneGap/Cordova javascript library version 2.1.0. Used along with Quicklight.Web it allows for the creation of native apps for mobile phones. See http://www.phonegap.com for further details</description>
+    <copyright>Johan Kirsten</copyright>
+    <language>en-US</language>
+    <tags>Saltarelle C# PhoneGap Cordova</tags>
+    <dependencies>
+      <dependency id="Saltarelle.Compiler" version="1.5.1" />
+      <dependency id="Saltarelle.Runtime" version="1.5.1" />
+    </dependencies>
+  </metadata>
+</package>
