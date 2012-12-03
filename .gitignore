@@ -1,4 +1,7 @@
+#ignore files wich end with ~, which is created by orgmode
+*~
 
+ 
 
 #################
 ## Eclipse
