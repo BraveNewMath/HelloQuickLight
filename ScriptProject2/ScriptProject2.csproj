@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ScriptProject2</RootNamespace>
     <AssemblyName>ScriptProject2</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -45,7 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib">
-      <HintPath>$(SolutionDir)packages\Saltarelle.Runtime.1.6.2\tools\Assemblies\mscorlib.dll</HintPath>
+      <HintPath>$(SolutionDir)packages\Saltarelle.Runtime.1.6.3\tools\Assemblies\mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Quicklight.Mobile">
       <HintPath>..\packages\Quicklight.Mobile.1.1.0\lib\Quicklight.Mobile.dll</HintPath>
@@ -57,11 +57,11 @@
       <HintPath>..\packages\Saltarelle.Linq.1.6.2\lib\Script.Linq.dll</HintPath>
     </Reference>
     <Reference Include="Script.Web">
-      <HintPath>..\packages\Saltarelle.Web.1.6.2\lib\Script.Web.dll</HintPath>
+      <HintPath>..\packages\Saltarelle.Web.1.6.3\lib\Script.Web.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" Condition="!Exists('$(SolutionDir)packages\Saltarelle.Compiler.1.6.2\tools\Saltarelle.Compiler.targets')" />
-  <Import Project="$(SolutionDir)packages\Saltarelle.Compiler.1.6.2\tools\Saltarelle.Compiler.targets" Condition="Exists('$(SolutionDir)packages\Saltarelle.Compiler.1.6.2\tools\Saltarelle.Compiler.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" Condition="!Exists('$(SolutionDir)packages\Saltarelle.Compiler.1.6.3\tools\Saltarelle.Compiler.targets')" />
+  <Import Project="$(SolutionDir)packages\Saltarelle.Compiler.1.6.3\tools\Saltarelle.Compiler.targets" Condition="Exists('$(SolutionDir)packages\Saltarelle.Compiler.1.6.3\tools\Saltarelle.Compiler.targets')" />
   <PropertyGroup>
     <PostBuildEvent>copy "$(TargetDir)$(TargetName).js" "$(SolutionDir)\CordovaExample\www\js\</PostBuildEvent>
   </PropertyGroup>
