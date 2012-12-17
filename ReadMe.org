@@ -10,7 +10,7 @@ There are two projects in this solution.  ScriptProject is a c# console applicat
 * Prerequisites
  - Silverlight:  This solution uses windows 7 immulator, which uses silverlight app as the project type.  
 * Nugit Commands to make ScriptProject compile to javascript:
-- Install-Package Saltarelle.Compile
+- Install-Package Saltarelle.Compiler
 - Install-Package Saltarelle.Web
 - Install-Package Saltarelle.Linq
 - Install-Package Quicklight.Mobile
